@@ -12,7 +12,7 @@ import Body from './body/body';
 import DetailsPage from './details/mobiledetails';
 
 const router = createBrowserRouter([
-  {path : '/', element: <Home/> },
+  {path : '/hngproj2', element: <Home/> },
   {path : '/cart', element: <Bookmark/> },
   {path : '/onboarding', element: <Onboarding/> },
   {path : '/details', element: <Details/> },
