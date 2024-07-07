@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c9b7896.css",
+    "main.js": "/static/js/main.460905a7.js",
+    "static/js/453.e08103a1.chunk.js": "/static/js/453.e08103a1.chunk.js",
+    "static/media/model2.jpg": "/static/media/model2.fa0c958540d4214c12e1.jpg",
+    "static/media/model3.jpg": "/static/media/model3.85c88f31f18672f1e1ae.jpg",
+    "static/media/bg.png": "/static/media/bg.8249545aea9f3183b825.png",
+    "static/media/model1.png": "/static/media/model1.9c2cd82c4e7a57ef0a68.png",
+    "static/media/pinkwarm.png": "/static/media/pinkwarm.79fc4498d32862332cf8.png",
+    "static/media/unsplash_ILip77SbmOE.png": "/static/media/unsplash_ILip77SbmOE.6ffe54819eca87afb7b6.png",
+    "static/media/unsplash_kpvIazqLOoA.png": "/static/media/unsplash_kpvIazqLOoA.a3766c40d9322c53966f.png",
+    "static/media/unsplash_8Lsy75LqGVc.png": "/static/media/unsplash_8Lsy75LqGVc.d4599aaf2dedc431b5b9.png",
+    "static/media/unsplash_LorcFaKYk34.png": "/static/media/unsplash_LorcFaKYk34.1c1b783111d14d5bb219.png",
+    "static/media/bigbutton.png": "/static/media/bigbutton.65651018413cd26100e4.png",
+    "static/media/kidscardigan.png": "/static/media/kidscardigan.cd2fedae13789f5bd1e9.png",
+    "static/media/menshawl.png": "/static/media/menshawl.e8923c7afb04eae485f5.png",
+    "static/media/unsplash_Zq4dVEMAZXo.png": "/static/media/unsplash_Zq4dVEMAZXo.e4c04ae2e0037759ef03.png",
+    "static/media/elegantsuit.png": "/static/media/elegantsuit.7434acfa06119948a5b7.png",
+    "static/media/girl.png": "/static/media/girl.e0bc49857760a5ea4344.png",
+    "static/media/female.png": "/static/media/female.5716d8038fa9d0ff7992.png",
+    "static/media/twitter.png": "/static/media/twitter.8e65601e69067aadfe55.png",
+    "static/media/Vector (3).svg": "/static/media/Vector (3).946a272e523ae86caaa17a9cd7fe87b8.svg",
+    "static/media/cart-fill.svg": "/static/media/cart-fill.ae8bd776342810e944c1e9c35f092821.svg",
+    "static/media/heart.svg": "/static/media/heart.8c12ace2a6bdd3d6cef752f015334d27.svg",
+    "static/media/Vector (1).svg": "/static/media/Vector (1).35265f4005e0f1101bc79806e0e73520.svg",
+    "static/media/menu.svg": "/static/media/menu.16d41740871f63688cc4e2a7891eff71.svg",
+    "static/media/home.svg": "/static/media/home.0710639253562ccb2772ca84b4e2544d.svg",
+    "static/media/Vector.svg": "/static/media/Vector.946b18ed22b2c69416909d4f889af2d3.svg",
+    "index.html": "/index.html",
+    "static/media/bin.svg": "/static/media/bin.c6a3753f312bf4120757b69a80953727.svg",
+    "main.1c9b7896.css.map": "/static/css/main.1c9b7896.css.map",
+    "main.460905a7.js.map": "/static/js/main.460905a7.js.map",
+    "453.e08103a1.chunk.js.map": "/static/js/453.e08103a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9b7896.css",
+    "static/js/main.460905a7.js"
+  ]
+}
