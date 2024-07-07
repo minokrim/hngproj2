@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Nav(){
     return <div className="navbarMain">
-        <Link to="/" className="li">
+        <Link to="/hngproj2" className="li">
         <section className="leftSec">
         <img src={logo} alt="" />
         <p>UNIQUE STORE</p>
@@ -14,10 +14,10 @@ function Nav(){
         </Link>
     
     <section className="middleSec">
-    <Link to="/" className="li"><p>HOME</p></Link>
+    <Link to="/hngproj2" className="li"><p>HOME</p></Link>
     <Link to="#products" className="li"><p>PRODUCTS</p></Link>
     <Link to="/cart" className="li"><p>CART</p></Link>
-    <Link to="/contact" className="li"><p>CONTACT US</p></Link>
+    <Link to="/hngproj2" className="li"><p>CONTACT US</p></Link>
     </section>
 
     <section className="rightSec">

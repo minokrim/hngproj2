@@ -50,7 +50,7 @@ import { ReactComponent as Bin } from "../img/bin.svg";
 
         ))
       ) : (
-        <p>Your cart is empty</p>  
+        <p className="emptycrt">Your cart is empty</p>  
       )}
         </div>
         <div className="checkout">

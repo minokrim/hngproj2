@@ -95,6 +95,11 @@
         flex-direction: column;
         background-color: rgba(90, 88, 88, 0.148);
     }
+    .vecHolder{
+        display: flex;
+        width: 100%;
+        justify-content: right;
+    }
     .vec{
         display: flex;
         flex-direction: row;
@@ -102,9 +107,11 @@
         background-color: white;
         width: 40px;
         height: 34px;
-        margin-left: 250px;
+        justify-self: right;
+        align-self: end;
         margin-top: 20px;
         padding: 10px;
+        margin-right: 10px;
     }
     .sec2Right{
         display: none;
@@ -197,6 +204,7 @@
         background-color: rgba(90, 88, 88, 0.148);
         padding: 0 5px 0 10px;
         padding-top: 10px;
+        justify-content: space-around;
     }
     .filter input{
         width: 259px;

@@ -143,7 +143,7 @@ button{
 @media screen and (max-width:600px) {
     .cartMain{
         border: none;
-        height: max-content;
+        height: 100%;
         background-color: rgba(90, 88, 88, 0.148);
     }
     .cartSec1{
@@ -151,6 +151,10 @@ button{
         justify-content: space-between;
         gap: 50px;
         width: 100vw;
+    }
+    .emptycrt{
+        width: 100vw;
+        text-align: center;
     }
     .cBody{
         display: flex;

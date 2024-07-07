@@ -44,7 +44,9 @@ function Body(){
 
         <section className="bodySec2"> 
             <div className="sec2Left">
+                <div className="vecHolder">
                 <Link to="/onboarding"> <VectorIcon3 className="vec"/></Link>
+                </div>
                 <h3>Where Style <span>Meets Comfort</span></h3>
                 <p>Join us to celebrate stylish, comfy wears. Your path to extraordinary style begins here.</p>
                 <h4>Get started</h4>

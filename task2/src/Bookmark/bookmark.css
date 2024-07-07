@@ -6,7 +6,6 @@
 .bookmarkMain{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
 }
 .bookmarkLeft{
     display: flex;
