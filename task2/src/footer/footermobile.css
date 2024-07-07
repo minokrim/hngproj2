@@ -1,0 +1,19 @@
+.footerMobileMain{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .footerMobileMain{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 20px 20px 20px;
+}
+.icon{
+   height: 25.67px;
+   width: auto;
+   fill: currentColor;
+}
+}

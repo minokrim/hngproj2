@@ -1,0 +1,124 @@
+.bmark{
+    display: flex;
+    flex-direction: column;
+
+}
+.bookmarkMain{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.bookmarkLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+h2{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;  
+    margin-bottom: 0;
+    padding-bottom: 0;  
+}
+.form{
+    border: 3px solid #27489E;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.infoSec1{
+    display: flex;
+    gap: 50px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.sec p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+.input{
+    background-color: rgb(214, 210, 210,0.5);
+    box-shadow: #C8C8C8 0.5px 0.5px 0.5px 0.5px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: #C8C8C8 3px solid;
+}
+.sec2{
+    display: flex;
+}
+.input2{
+    width: 90%;
+}
+.input3{
+    width: 40%;
+}
+.cartHeading{
+    color: #27489E;
+    font-weight: 600;
+    font-size: 24px;
+}
+.mobile{
+    display: none;
+}
+.cardholder{
+    background-image: url("../img/visa2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-size: 40px;
+}
+
+
+@media screen and (max-width:600px) {
+    .bookmarkLeft{
+        display: none;
+    }
+    .bookmarkRight{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        padding: 0;
+        width: 100vw;
+    }
+    .cartHeading{
+        display: none;
+    }
+    .cartnav{
+        display: flex;
+        gap: 80px;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(90, 88, 88, 0.148);
+    }
+    .caret{
+        background: white;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 20px;
+        color: #504F4F;
+        margin-left: 20px;
+    }
+    .mbheading{
+        font-weight: 500;
+        font-size: 24px;
+        color: #504F4F;
+    }
+    .mobile{
+        display: flex;
+    }
+}

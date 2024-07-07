@@ -1,0 +1,157 @@
+.detailsMain{
+    display: flex;
+    background-color: rgba(90, 88, 88, 0.148);
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.detSec1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.detSec1 img{
+    width: auto;
+    height: 428px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+.detSec1 div{
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: max-content;
+    gap: 100px;
+}
+.detSec1 p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #504F4F;
+}
+.detPrice{
+    display: flex;
+    align-items: center;
+}
+.detPrice p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #797979;
+}
+.detPrice img{
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    width: auto;
+    height: 20px;
+}
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    color: #504F4F;
+}
+.detSec2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: left;
+}
+.detSec2 p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #504F4F;
+    width: 50%;
+    display: flex;
+    text-align: left;
+}
+.size{
+    display: flex;
+    gap: 14px;
+}
+.size p{
+    display: flex;
+    background-color: white;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+.colors{
+    display: flex;
+    gap: 14px;
+}
+.colors div{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: blue;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: #27489E;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 0 15px 0;
+    border: none;
+    width: 300px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+#grey{
+    background-color: gray;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#pink{
+    background-color: pink;
+}
+
+@media screen and (max-width:600px) {
+    .detailsMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .detSec1 img{
+        width: auto;
+        height: 348px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .detPrice img{
+        display: none;
+    }
+    .detSec2{
+        width: 100%;
+    }
+    .detSec2 p{
+        width: 100%;
+    }
+    .heading{
+        font-size: 16px;
+    }
+    .size p{
+        width: 50px;
+        height: 50px;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+}
