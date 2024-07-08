@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 function Footermobile(){
     return <div>
         <section className="footerMobileMain">
-            <a href="/body"><Home className="home icon"/></a>
-            <a href="/onboarding"><Menu className="menu icon"/></a>
-            <a><Heart className="heart icon"/></a>
+            <Link to="/body"><Home className="home icon"/></Link>
+            <Link to="/onboarding"><Menu className="menu icon"/></Link>
+            <Link><Heart className="heart icon"/></Link>
             <Link to="/cart" className="fli">
             <Cart className="footercheckout icon"/>
             </Link>
