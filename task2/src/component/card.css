@@ -49,34 +49,6 @@
     height: 20px;
 }
 
-/* .secDetails{
-    margin-top: 0;
-    padding-top: 0;
-    width: 100%;
-    height: 100px;
-    font-weight: 500;
-    font-size: 15px;
-    color: #504F4F;
-}
-.cart{
-    margin-top: 0;
-    padding-top: 0;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-    font-size: 20px;
-    align-items: center;
-    width: 100%;
-}
-.cart span{
-    background-color: #27489E;
-    border-radius: 25px;
-    padding: 5px 20px 5px 20px;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-} */
-
 @media screen and (max-width:600px) {
     .cardMain{
         display: flex;

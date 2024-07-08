@@ -14,6 +14,7 @@ import { ReactComponent as Bin } from "../img/bin.svg";
         setItems(updatedItems);
         localStorage.setItem('items', JSON.stringify(updatedItems));
       }
+
       function calculateTotal() {
         return items.reduce((total, item) => {
           const itemTotal = (item.price || 0) * (item.quantity || 1);
@@ -36,8 +37,8 @@ import { ReactComponent as Bin } from "../img/bin.svg";
               <h2>{item.name}</h2>
               <h3>{item.price}</h3>
               <section>
-                <p>{item.color}</p>
-                <h4>{item.size}L</h4>
+                <p style={{ backgroundColor: item.color }}></p>
+                <h4>{item.size}</h4>
               </section>
               <div>
                 <p>+</p>

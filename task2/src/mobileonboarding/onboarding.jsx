@@ -54,7 +54,8 @@ function Onboarding(){
         </section>
         
         <section className="sec2">
-            <h3>Where Style <span>Meets Comfort</span></h3>
+            <h3>Where Style</h3>
+            <span>Meets Comfort</span>
             <p>Join us to celebrate stylish, comfy wears. Your path to extraordinary style begins here.</p>
         </section>
 

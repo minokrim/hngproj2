@@ -3,8 +3,10 @@ import "../details/details.css"
 import Nav from "../navbar/navbar";
 import Footer from "../footer/footer";
 function Details(props){
-
+    const [selectedSize, setSelectedSize] = useState('');
+    const [selectedColor, setSelectedColor] = useState('');
     const [items, setItems] = useState([]);
+
 
     useEffect(() => {
         const storedItems = JSON.parse(localStorage.getItem("items")) || [];
@@ -17,6 +19,8 @@ function Details(props){
             name: props.name,
             price: props.price,
             description: props.description,
+            size: selectedSize,
+            color: selectedColor,
           };
       
           setItems((prevItems) => {
@@ -44,19 +48,19 @@ function Details(props){
             <div>
                 <h2 className="heading">Size:</h2>
                 <section className="size">
-                    <p>S</p>
-                    <p>M</p>
-                    <p>L</p>
-                    <p>XL</p>
+                    <p onClick={() => setSelectedSize('S')} id="small" className="size">S</p>
+                    <p onClick={() => setSelectedSize('M')}  id="medium" className="size">M</p>
+                    <p onClick={() => setSelectedSize('L')}  id="large" className="size">L</p>
+                    <p onClick={() => setSelectedSize('XL')} id="extralarge" className="size">XL</p>
                 </section>
             </div>
             <div>
                 <h2 className="heading">Colors Available:</h2>
                 <section className="colors">
-                <div id="grey"></div>
-                <div id="blue"></div>
-                <div id="red"></div>
-                <div id="pink"></div>
+                <div onClick={() => setSelectedColor('grey')} id="grey" className="color"></div>
+                <div onClick={() => setSelectedColor('blue')} id="blue" className="color"></div>
+                <div onClick={() => setSelectedColor('red')} id="red" className="color"></div>
+                <div onClick={() => setSelectedColor('pink')} id="pink" className="color"></div>
                 </section>
             </div>
             <button className="btn" onClick={addtocart}>Add to Cart</button>

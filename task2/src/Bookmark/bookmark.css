@@ -1,7 +1,6 @@
 .bmark{
     display: flex;
     flex-direction: column;
-
 }
 .bookmarkMain{
     display: flex;
