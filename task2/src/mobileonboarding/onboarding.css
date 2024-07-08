@@ -1,5 +1,4 @@
 @media screen and (max-width:600px) {
-    
     .onboardingmain{
         display: flex;
         flex-direction: column;
@@ -7,7 +6,7 @@
         padding: 0 10px 0 10px;
         background-color: #22374A;
         color: white;
-        height: max-content;
+        height: 100vh;
     }
     .sec1{
         display: flex;

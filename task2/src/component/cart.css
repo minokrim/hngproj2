@@ -173,6 +173,7 @@ button{
         justify-content: center;
         align-items: center;
         background-color: rgba(90, 88, 88, 0.148);
+        height: 100vh;
     }
     .checkout h3{
         width: 90%;
