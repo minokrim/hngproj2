@@ -28,7 +28,7 @@ const Products=[
     name: "V-Neck Cardigan",
     price: 39.9,
     description:"V-Neck cardigan suitable for formal or casual occasions. Versatile and easy to pair with dresses, shirts, or sweaters.",
-    imgURL:require ("./img/unsplash_Zq4dVEMAZXo.png"),
+    imgURL:require ("./img/unsplash_ILip77SbmOE.png"),
     ratings:require("./img/star1.png"),
     },
     {
