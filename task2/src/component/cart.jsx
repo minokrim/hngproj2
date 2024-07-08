@@ -35,7 +35,7 @@ import { ReactComponent as Bin } from "../img/bin.svg";
             <img src={item.image} alt={item.name} />
             <section className="specs">
               <h2>{item.name}</h2>
-              <h3>{item.price}</h3>
+              <h3>${item.price}</h3>
               <section>
                 <p style={{ backgroundColor: item.color }}></p>
                 <h4>{item.size}</h4>
