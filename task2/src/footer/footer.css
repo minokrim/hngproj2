@@ -62,21 +62,19 @@ h5{
     align-items: flex-start;
     font-size: 16px;
     gap: 0px;
+    margin-left: 0px;
 }
 .row1{
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 16px;
+    font-weight: 400;
 }
 .row23{
     position: relative;
     gap: 30Px;
     font-size: 16px;
-    margin-top: 50px;
-    right: 80px;
 }
-.row1 p{
-    width: max-content;
-}
+
 .row1 img{
     height: 30px;
 }

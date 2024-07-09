@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import "../details/details.css"
 import Swal from 'sweetalert2'
-import Navv from "../nav2/nav2.jsx";
+import Nav from "../navbar/navbar";
 function Details(props){
     const [selectedSize, setSelectedSize] = useState('');
     const [selectedColor, setSelectedColor] = useState('');
@@ -37,7 +37,7 @@ function Details(props){
       }
 
     return <div className="detailsMain">
-                <Navv/>
+                <Nav/>
         <div className="detailbody">
         <section className="detSec1">
             <img src={props.image}alt="" />

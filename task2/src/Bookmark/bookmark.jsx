@@ -6,7 +6,6 @@ import Footer from "../footer/footer";
 import { Link } from "react-router-dom";
 import {useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2'
-import Navv from "../nav2/nav2";
 function Bookmark(){
     const navigate = useNavigate();
     function showsuccess(){
@@ -18,7 +17,7 @@ function Bookmark(){
           navigate(`/hngproj2`);
     }
     return <div className="bmark">
-        <Navv/>
+        <Nav/>
         <div className="bookmarkMain">
         <section className="bookmarkLeft">
             <h2>Personal Information</h2>

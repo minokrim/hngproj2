@@ -1,6 +1,6 @@
 const Product2=[
     {
-        id: 6,
+        id: 1,
         name: "Quilted Jacket",
         price: 39.9,
         description:"Quilted Jacket is made from multiple layers of fabric stitched together to create a thick, padded, and warm material.",
@@ -8,7 +8,7 @@ const Product2=[
         ratings:require("./img/star1.png"),
         },
         {
-        id: 7,
+        id: 2,
         name: "Acrylic sweater",
         price: 39.9,
         description:"Acrylic sweater made from acrylic fibers, synthetic materials. Known for It’s warmth, softness and durability.",
@@ -16,7 +16,7 @@ const Product2=[
         ratings:require("./img/star1.png"),
         },
         {
-        id: 8,
+        id: 3,
         name: "Acrylic sweater",
         price: 39.9,
         description:"Acrylic sweater made from acrylic fibers, synthetic materials. Known for It’s warmth, softness and durability.",
@@ -24,7 +24,7 @@ const Product2=[
         ratings:require("./img/star2.png"),
         },
         {
-        id: 9,
+        id: 4,
         name: "Heavy knit cardigan",
         price: 39.9,
         description:"Heavy knit cardigan made from thick, robust yarns. It provides extra warmth and comfort.",
@@ -32,7 +32,7 @@ const Product2=[
         ratings:require("./img/star1.png"),
         },
         {
-        id: 10,
+        id: 5,
         name: "Kids Cardigan",
         price: 39.9,
         description:"Kids cardigan suitable for formal or casual occasions. Versatile and easy to pair with dresses, shirts, or sweaters.",

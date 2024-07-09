@@ -17,7 +17,7 @@ const Products=[
     },
     {
     id: 3,
-    name: "Acrylic Sweater",
+    name: "Zip-Up Cardigan",
     price: 39.9,
     description:"Zip-Up Cardigan with a stand-up collar and a zip. Versatile, easy to wear, adjustable, comfortable and sporty.",
     imgURL:require ("./img/unsplash_kpvIazqLOoA.png"),

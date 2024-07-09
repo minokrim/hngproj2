@@ -16,17 +16,11 @@ function Footer(){
         <div className="row23">
         <section className="row2">
             <p>About us</p>
-            <p>Press</p>
-            <p>Terms of service</p>
             <p>Privacy Policy</p>
-            <p id="tc">Terms and conditions</p>
         </section>
 
         <section className="row3">
-            <p>Conatct us</p>
             <p>FAQ</p>
-            <p>Help center</p>
-            <p>support</p>
             <p>Follow us</p>
         </section>
         </div>

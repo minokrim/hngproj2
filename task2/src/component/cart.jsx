@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import "../component/cart.css"
 import { ReactComponent as Bin } from "../img/bin.svg";
 import { Link } from "react-router-dom";
-import Navv from "../nav2/nav2";
+import Nav from "../navbar/navbar";
     function Cart(){
     const [items, setItems] = useState([]);
 
@@ -26,7 +26,7 @@ import Navv from "../nav2/nav2";
 
     console.log(items)
     return <div className="cBody">
-              <Navv/>
+              <Nav/>
         <div className="cartMain">
         <h3 className="cartHeading">Cart Summary</h3>
 

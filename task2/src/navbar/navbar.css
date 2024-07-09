@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     color: white;
+    width: 100vw;
 }
 .leftSec{
     display: flex;
@@ -42,51 +43,90 @@
     color: white;
     font-weight: 600;
 }
+.hamburger{
+    display: none;
+}
+.dropDown{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-left: -200px;
+    margin-bottom: -200px;
+    z-index: 2;
+    padding: 0 20px 0;
+}
+.dropDown img{
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.li2{
+    color: black;
+    text-decoration: none;
+}
 
 @media screen and (max-width:600px) {
     .navbarMain{
         width: 100%;
         justify-content: space-between;
+        align-items: center;
+        gap: 90px;
     }
-    .leftSec{
-        position: relative;
-        font-size: 16px;
-        margin-bottom: 40px;
-        left: 20px;
+    .hamburger{
+        display: flex;
+        width: auto;
+        height: 40px;
+    }
+    .icons{
+        display: flex;
+        gap: 20px;
+        margin-right: 10px;
     }
     .leftSec p{
-        width: max-content;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .dropDown{
+        display: block;
+    }
+    /* .dropDown{
+        display: block;
+        position: absolute;
+        padding: 0 20px 0;
+        position: relative;
+        right: 255px;
+        top: 90px;
+        z-index: 2;
+    } */
+    /* .icons{
+        display: flex;
+        gap: 30px;
+        margin-right: 50px;
+    }
+    .dropDown{
+        display: block;
+        padding: 0 20px 0;
+        position: relative;
+        right: 255px;
+        top: 90px;
+        z-index: 1;
+    }
+    .hamburger{
+        display: flex;
+        width: auto;
+        height: 40px;
     }
     .leftSec img{
         height: 30px;
     }
-    .middleSec{
-        margin-top: 50px;
-        font-size: 13px;
-        gap: 10px;
-        width: max-content;
-        align-self: center;
-        justify-self: center;
-    }
-    .middleSec p{
-        width: max-content;
-    }
-    .rightSec{
-        position: relative;
-        padding: 0 20px 0px 20px;
-        font-size: 10px;
-        height: 30px;
-        width: 300px; 
-        margin-top: 20px;
-        right: 70px;
-    }
-    .rightSec p{
-        width: max-content;
-    }
-}
-
-@media screen and (max-width:600px) {
     .leftSec p{
-        width: 100%;
+        width: max-content;
+        font-size: 16px;
+    } */
+    .middleSec{
+        display: none;
     }
 }
