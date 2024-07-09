@@ -56,7 +56,6 @@ function Body(){
             <div className="productHeading">
                 <h3>New Arrivals</h3>
                 <h4>Get trendy with our latest arrivals</h4>
-                <h2 className="call2action">Shop Now</h2>
             </div>
             <div className="productcard">
             {Products.map(showproduct)}

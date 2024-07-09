@@ -284,8 +284,11 @@ body{
             /* padding: 0 10px 0 10px; */
     }
     .productHeading h4{
-        width: 100%;
+        display: flex;
+        width: max-content;
         text-align: center;
+        align-self: center;
+        justify-self: center;
     }
     .productcard{
         padding: 0 20px 0 20px;
@@ -321,6 +324,9 @@ body{
     .catHeading{
         display: flex;
         justify-content: space-between;
+    }
+    .catHeading h4{
+        width: 100%;
     }
     .categories{
         display: flex;

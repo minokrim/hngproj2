@@ -137,4 +137,8 @@ button{
     .mobile{
         display: flex;
     }
+    .bookmarkbtn{
+        width: 70%;
+        margin-right: 0;
+    }
 }
