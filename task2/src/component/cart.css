@@ -210,4 +210,8 @@ button{
     .li{
         width: 100%;
     }
+    .emptycrt{
+        display: flex;
+        justify-content: center;
+    }
 }
