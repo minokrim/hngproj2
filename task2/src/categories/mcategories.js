@@ -3,7 +3,7 @@ const Mcategory=[
     id: 1,
     name: "Cable knit Cardigan",
     price: 50.00,
-    imgURL:require("../img/Gray Unisex Cardigan Sweater, Male Handmade knit Jacket for men and women,Man Sweater Oversize Unique Gray Chunky Cozy Wear 1.png"),
+    imgURL:require("../img/Gray Unisex.png"),
     ratings:require("../img/star1.png"),
     },
         {
