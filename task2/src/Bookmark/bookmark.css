@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: max-content;
+    /* width: max-content; */
     margin-left: 100px;
 }
 h2{
@@ -95,7 +95,7 @@ button{
 
 @media screen and (max-width:600px) {
     .bookmarkLeft{
-        margin: 0;
+        margin-left: 0;
     }
     .infoSec1{
         gap: 25px;
@@ -106,7 +106,9 @@ button{
     .form{
         border: none;
         width: max-content;
+        padding: 0px;
     }
+
     .cartHeading{
         display: none;
     }
