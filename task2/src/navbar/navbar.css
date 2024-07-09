@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     color: white;
-    width: 100vw;
+    width: 100%;
 }
 .leftSec{
     display: flex;
