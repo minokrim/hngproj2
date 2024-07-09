@@ -175,7 +175,7 @@ body{
 .productHeading h2{
     align-self: center;
 }
-.productHeading h4{
+.catHeading h4{
     width: 30%;
     display: flex;
     align-self: center;
