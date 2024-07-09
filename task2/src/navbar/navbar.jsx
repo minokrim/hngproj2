@@ -28,13 +28,15 @@ function Nav() {
 
             <div className="icons">
                 <img src={menu} alt="Menu" className="hamburger" onClick={toggleDropdown} />
+                <Link to="/cart">
                 <img src={cart} alt="Cart" className="hamburger" />
+                </Link>
             </div>
 
             <section className="middleSec">
                 <Link to="/hngproj2" className="li" onClick={closeDropdown}><p>HOME</p></Link>
                 <Link to="/hngproj2" className="li" onClick={closeDropdown}><p>PRODUCTS</p></Link>
-                <Link to="/cart" className="li" onClick={closeDropdown}><p>CART</p></Link>
+                <Link to="/cart" className="li"><p>CART</p></Link>
             </section>
 
             {dropdownVisible && (
