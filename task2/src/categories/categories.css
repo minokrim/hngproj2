@@ -1,0 +1,39 @@
+.categories{
+    font-weight: 600;
+    font-size: 20px;
+    color: #504F4F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+.categories p{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #504F4F;
+    width: max-content;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+}
+.categories h3{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+.categories img{
+    display: flex;
+    width: auto;
+    height: 20px;
+    align-self: center;
+    margin-top: 0;
+    padding-top: 0;
+}

@@ -13,12 +13,13 @@ function Footer(){
             <p>Unique store</p>
         </section>
 
+        <div className="row23">
         <section className="row2">
             <p>About us</p>
             <p>Press</p>
             <p>Terms of service</p>
             <p>Privacy Policy</p>
-            <p>Terms and conditions</p>
+            <p id="tc">Terms and conditions</p>
         </section>
 
         <section className="row3">
@@ -27,14 +28,16 @@ function Footer(){
             <p>Help center</p>
             <p>support</p>
             <p>Follow us</p>
-            <div className="socials">
+        </section>
+        </div>
+
+        </section>
+        <div className="socials">
                 <img src={google} alt="" />
                 <img src={gmail} alt="" />
                 <img src={twitter} alt="" />
                 <img src={facebook} alt="" />
             </div>
-        </section>
-        </section>
         <h5>Unique store 2024. All rights reserved</h5>
     </div>
 }

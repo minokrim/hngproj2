@@ -16,8 +16,6 @@ function DetailsPage() {
     return (
         <div className="detailsPage">
             <section className="detailnav">
-            <Link to="/body" className="li"><h3 className="mobile caret">&lt;</h3></Link>
-            <Link to="/hngproj2"> <VectorIcon3 className="detailvector"/></Link>
             </section>
             <Details
                 image={product.imgURL}

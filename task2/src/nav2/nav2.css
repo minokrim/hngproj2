@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     color: white;
+    width: 100%;
 }
 .leftSec{
     display: flex;
@@ -47,6 +48,7 @@
     .navbarMain{
         width: 100%;
         justify-content: space-between;
+        display: none;
     }
     .leftSec{
         position: relative;
@@ -83,5 +85,6 @@
 @media screen and (max-width:600px) {
     .leftSec p{
         width: 100%;
+        display: none;
     }
 }

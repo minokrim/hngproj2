@@ -1,21 +1,16 @@
 import React,{useState} from "react";
 import "../body/body.css"
 import bg from "../img/bg.png"
-import { ReactComponent as VectorIcon } from "../img/Vector.svg";
-import girl from "../img/girl.png"
 import Products from "../products";
 import Card from "../component/card";
-import female from "../img/female.png"
-import male from "../img/unsplash_kpvIazqLOoA.png"
-import kids from "../img/unsplash_LorcFaKYk34.png"
-import man from "../img/unsplash_ILip77SbmOE.png"
-import { ReactComponent as VectorIcon2 } from "../img/Vector (1).svg";
-import { ReactComponent as VectorIcon3 } from "../img/Vector (3).svg";
-import Footermobile from "../footer/footermobile";
 import Details from "../details/details";
-import { Link } from "react-router-dom";
 import Nav from "../navbar/navbar";
 import Footer from "../footer/footer";
+import Categories from "../categories/categories";
+import Mcategory from './../categories/mcategories';
+import Fcategory from './../categories/fcategories';
+import Kcategory from './../categories/kcategories';
+import Product2 from "../product2";
 
 function Body(){
     const [selectedItemId, setSelectedItemId] = useState([]);
@@ -33,6 +28,16 @@ function Body(){
         addToCart={() => console.log("Add to cart")} 
         />
     }
+
+    function showFCategories(category){
+        return<Categories
+        key={category.id}
+        image={category.imgURL}
+        name={category.name}
+        price={category.price}
+        rating={category.ratings}
+        />
+    }
     console.log(selectedItemId)
     var selectedItem = Products.find(product => product.id === selectedItemId);
 
@@ -40,36 +45,24 @@ function Body(){
         <Nav/>
         <section className="bodySec1">
             <img src={bg} alt="" />
-        </section>
-
-        <section className="bodySec2"> 
             <div className="sec2Left">
-                <div className="vecHolder">
-                <Link to="/onboarding"> <VectorIcon3 className="vec"/></Link>
-                </div>
                 <h3>Where Style <span>Meets Comfort</span></h3>
                 <p>Join us to celebrate stylish, comfy wears. Your path to extraordinary style begins here.</p>
-                <h4>Get started</h4>
-            </div>
-            <div className="sec2Right">
-                <VectorIcon className="vectorIcon"/>
-                <img src={girl} alt="" />
+                <h4 className="call2action">Get started</h4>
             </div>
         </section>
 
-        <section className="filter">
-            <input type="search" name="" id="" placeholder="Search Your Style"/>
-            <VectorIcon2 className="vec2"/>
-        </section>
-
-        <section className="products">
+        <section className="products" id="products">
             <div className="productHeading">
                 <h3>New Arrivals</h3>
                 <h4>Get trendy with our latest arrivals</h4>
-                <h2 className="mobileph">see all</h2>
+                <h2 className="call2action">Shop Now</h2>
             </div>
             <div className="productcard">
             {Products.map(showproduct)}
+            </div>
+            <div className="productcard">
+            {Product2.map(showproduct)}
             </div>
         </section>
 
@@ -93,28 +86,24 @@ function Body(){
         <section className="catSection">
             <div className="catHeading productHeading">
                 <h3>Categories</h3>
-                <h2 className="mobileph">See all</h2>
+                <h4>We have different categories of wears to suit everyones need.</h4>
             </div>
-            <div className="categories">
-                <figure>
-                    <img src={female} alt="" />
-                    <figcaption>Female</figcaption>
-                </figure>
-                <figure>
-                    <img src={male} alt="" />
-                    <figcaption>Male</figcaption>
-                </figure>
-                <figure>
-                    <img src={kids} alt="" />
-                    <figcaption>Kids</figcaption>
-                </figure>
-                <figure>
-                    <img src={man} alt="" />
-                    <figcaption>Man</figcaption>
-                </figure>
+
+            <h2 className="cattype">Female Category</h2>
+            <div className="cat">
+                {Fcategory.map(showFCategories)}
+            </div>
+
+            <h2 className="cattype">Male Category</h2>
+            <div className="cat">
+                {Mcategory.map(showFCategories)}
+            </div>
+
+            <h2 className="cattype">Kids Category</h2>
+            <div className="cat kcat">
+                {Kcategory.map(showFCategories)}
             </div>
         </section>
-        <Footermobile/>
         <Footer/>
     </div>
 }

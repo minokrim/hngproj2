@@ -1,12 +1,24 @@
-import React  from "react";
+import React,{useState,useEffect}  from "react";
 import "../Bookmark/bookmark.css"
 import Cart from "../component/cart";
 import Nav from "../navbar/navbar";
 import Footer from "../footer/footer";
 import { Link } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2'
+import Navv from "../nav2/nav2";
 function Bookmark(){
+    const navigate = useNavigate();
+    function showsuccess(){
+        Swal.fire({
+            icon: "success",
+            title: "Cart Cleared",
+            text: "Payment successful",
+          });
+          navigate(`/hngproj2`);
+    }
     return <div className="bmark">
-        <Nav/>
+        <Navv/>
         <div className="bookmarkMain">
         <section className="bookmarkLeft">
             <h2>Personal Information</h2>
@@ -67,12 +79,12 @@ function Bookmark(){
                 <section className="infoSec1">
 
                 <div className="sec2">
-                    <input type="radio" name="" id="" />
+                    <input type="radio" name="" className="radio" />
                     <p>Cash on Delivery</p>
                 </div>
 
                 <div className="sec2">
-                    <input type="radio" name="" id="" />
+                    <input type="radio" name="" className="radio" />
                     <p>Credit or Debit</p>
                 </div>
                 </section>
@@ -99,17 +111,7 @@ function Bookmark(){
                 </section>
             </form>
         </section>
-
-        <section className="bookmarkRight">
-            <div className="cartnav">
-                <Link to="/body" className="li">
-                <h3 className="mobile caret">&lt;</h3>
-                </Link>
-            <h3 className="cartHeading">Cart Summary</h3>
-            <h3 className="mobile mbheading">My Cart</h3>
-            </div>
-            <Cart/>
-        </section>
+        <button className="bookmarkbtn" onClick={showsuccess}>Pay Now</button>
         </div>
         <Footer/>
     </div>

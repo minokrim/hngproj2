@@ -3,11 +3,12 @@
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px 0px 20px 0;
+    padding: 30px 0px 20px 0;   
+    width: 100%;
 }
 .footerSec1{
     display: flex;
-    justify-content: space-around;
+    gap: 200px;
 }
 .row1{
     display: flex;
@@ -15,6 +16,7 @@
     font-weight: 600;
     font-size: 20px;
     align-items: center;
+    margin-left: 50px;
 }
 .row1 img{
     width: auto;
@@ -32,6 +34,10 @@
     font-weight: 600;
     font-size: 20px;
 }
+.row23{
+    display: flex;
+    gap: 200px;
+}
 h5{
     font-weight: 600;
     font-size: 20px;
@@ -40,6 +46,8 @@ h5{
 }
 .socials{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 .socials img{
@@ -50,7 +58,45 @@ h5{
     padding: 10px;
 }
 @media screen and (max-width:600px) {
-        .footerMain{
-            display: none;
-        }
+.footerSec1{
+    align-items: flex-start;
+    font-size: 16px;
+    gap: 0px;
+}
+.row1{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.row23{
+    position: relative;
+    gap: 0Px;
+    font-size: 16px;
+    margin-top: 50px;
+    right: 80px;
+}
+.row1 p{
+    width: max-content;
+}
+.row1 img{
+    height: 30px;
+}
+.row2{
+    font-size: 16px;
+}
+.row3{
+    font-size: 16px;
+}
+#tc{
+    width: 70%;
+} 
+.row3 p{
+    width: max-content;
+}
+.socials img{
+    padding: 5px;
+    height: 15px;
+}
+h5{
+    font-size: 16px;
+}
 }

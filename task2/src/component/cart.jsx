@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from "react";
 import "../component/cart.css"
 import { ReactComponent as Bin } from "../img/bin.svg";
+import { Link } from "react-router-dom";
+import Navv from "../nav2/nav2";
     function Cart(){
     const [items, setItems] = useState([]);
 
@@ -24,8 +26,10 @@ import { ReactComponent as Bin } from "../img/bin.svg";
 
     console.log(items)
     return <div className="cBody">
-
+              <Navv/>
         <div className="cartMain">
+        <h3 className="cartHeading">Cart Summary</h3>
+
         {
         items.length > 0 ? (
         items.map((item, index) => (
@@ -59,7 +63,9 @@ import { ReactComponent as Bin } from "../img/bin.svg";
         <h3>Shipping fee: <span>$0.00</span></h3>
         <hr/>
         <h3>Grand Total: <span className="total">${calculateTotal().toFixed(2)}</span></h3>
+        <Link to="/bookmark" className="li">
         <button>Check Out</button>
+        </Link>
       </div>
         </div>
 }

@@ -8,9 +8,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 3px solid #27489E;
-    width: max-content;
+    width:100%;
     gap: 30px;
+}
+.cartHeading{
+    font-weight: 600;
+    font-size: 36px;
+    color: #504F4FF4;
+    align-self: center;
 }
 .specs{
     display: flex;
@@ -38,6 +43,7 @@
 .cartSec2{
     display: flex;
     gap: 13px;
+    margin-left: 100px;
 }
 .cartSec2 img{
     height: 118px;
@@ -60,7 +66,6 @@
     height: 30px;
 }
 .specs section p{
-    background-color: red;
     width: 32px;
     height: 32px;
     border-radius: 100px;
@@ -96,9 +101,9 @@
 .checkout{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 50px;
     height: max-content;
 }
 .checkout h3{
@@ -118,7 +123,7 @@ h3 span{
 }
 hr{
     border: 1px solid rgb(50, 50, 50,0.5);
-    width: 290px;
+    width: 100%;
     margin-top: 0;
     padding-top: 0;
 }
@@ -126,6 +131,11 @@ hr{
     font-weight: 600;
     font-size: 18px;
     color: black;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button{
     display: flex;
@@ -137,9 +147,14 @@ button{
     border: none;
     font-weight: 500;
     font-size: 20px;
+    width: 30%;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 25px;
 }
 .bin{
     margin-top: 10px;
+    margin-right: 100px;
 }
 
 @media screen and (max-width:600px) {
@@ -147,6 +162,9 @@ button{
         border: none;
         height: max-content;
         background-color: rgba(90, 88, 88, 0.148);
+    }
+    .cartHeading{
+        display: flex;      
     }
     .cartSec1{
         display: flex;
@@ -179,10 +197,13 @@ button{
         width: 90%;
     }
     button{
-        width: 90%;
+        width: 80%;
         margin-bottom: 10px;
     }
     .bin{
         margin-right: 20px;
+    }
+    .li{
+        width: 100%;
     }
 }

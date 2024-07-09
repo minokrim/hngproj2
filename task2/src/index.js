@@ -10,14 +10,16 @@ import Onboarding from './mobileonboarding/onboarding';
 import Details from './details/details';
 import Body from './body/body';
 import DetailsPage from './details/mobiledetails';
+import Cart from './component/cart';
 
 const router = createBrowserRouter([
   {path : '/hngproj2', element: <Home/> },
-  {path : '/cart', element: <Bookmark/> },
+  {path : '/bookmark', element: <Bookmark/> },
   {path : '/onboarding', element: <Onboarding/> },
   {path : '/details', element: <Details/> },
   {path : '/body', element: <Body/> },
   { path: '/mobiledetails/:id', element: <DetailsPage /> },
+  { path: '/cart', element: <Cart /> },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

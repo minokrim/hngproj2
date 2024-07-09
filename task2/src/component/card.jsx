@@ -7,11 +7,7 @@ function Card(props){
   const navigate = useNavigate();
   
   const handleImageClick = () => {
-    if (window.innerWidth <= 600) {
-        navigate(`/mobiledetails/${props.id}`);
-    } else {
-        props.onImageClick();
-    }
+    navigate(`/mobiledetails/${props.id}`);
 };
     return <div>
         <section className="cardMain">
