@@ -1,33 +1,33 @@
-.navbarMain{
+.navbarMain2{
     background-color: #22374A;
     display: flex;
     justify-content: space-around;
     color: white;
     width: 100%;
 }
-.leftSec{
+.leftSec2{
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 600;
     font-size: 20px;
 }
-.leftSec img{
+.leftSec2 img{
     width: auto;
     height: 40px;
 }
-.middleSec{
+.middleSec2{
     display: flex;
     align-items: center;
     gap: 50px;
     font-weight: 500;
     font-size: 20px;
 }
-.middleSec p:hover{
+.middleSec2 p:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-.rightSec{
+.rightSec2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,30 +38,30 @@
     padding: 0 50px 0 50px;
     border-radius: 25px;
 }
-.li{
+.li2{
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
 @media screen and (max-width:600px) {
-    .navbarMain{
+    .navbarMain2{
         width: 100%;
         justify-content: space-between;
         display: none;
     }
-    .leftSec{
+    .leftSec2{
         position: relative;
         font-size: 14px;
         margin-bottom: 20px;
     }
-    .leftSec p{
+    .leftSec2 p{
         width: max-content;
     }
-    .leftSec img{
+    .leftSec2 img{
         height: 30px;
     }
-    .middleSec{
+    .middleSec2{
         margin-top: 40px;
         font-size: 10px;
         gap: 10px;
@@ -69,10 +69,10 @@
         align-self: center;
         justify-self: center;
     }
-    .middleSec p{
+    .middleSec2 p{
         width: max-content;
     }
-    .rightSec{
+    .rightSec2{
         position: relative;
         padding: 0 20px 0px 20px;
         padding: 0;
@@ -83,7 +83,7 @@
 }
 
 @media screen and (max-width:600px) {
-    .leftSec p{
+    .leftSec2 p{
         width: 100%;
         display: none;
     }

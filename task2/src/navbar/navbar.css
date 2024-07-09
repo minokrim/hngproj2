@@ -50,7 +50,7 @@
     }
     .leftSec{
         position: relative;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
     .leftSec p{
@@ -61,7 +61,7 @@
     }
     .middleSec{
         margin-top: 40px;
-        font-size: 10px;
+        font-size: 13px;
         gap: 10px;
         width: max-content;
         align-self: center;

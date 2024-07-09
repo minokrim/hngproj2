@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
 import "../details/details.css"
+import Swal from 'sweetalert2'
 import Navv from "../nav2/nav2.jsx";
 function Details(props){
     const [selectedSize, setSelectedSize] = useState('');
@@ -26,6 +27,12 @@ function Details(props){
             const updatedItems = [...prevItems, newItem];
             localStorage.setItem("items", JSON.stringify(updatedItems));
             return updatedItems;
+          });
+
+          Swal.fire({
+            icon: "success",
+            title: "Added",
+            text: "Successfully added to cart",
           });
       }
 
