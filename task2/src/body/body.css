@@ -212,7 +212,15 @@ body{
     margin-bottom: 50px;
 }
 
-
+@media screen and (max-width:770px) {
+    .cat{
+        overflow: scroll;
+        
+    }
+    .cat::-webkit-scrollbar{
+        display: none;
+    }
+}
 @media screen and (max-width:600px) {
     .bodySec1{
         display: flex;
