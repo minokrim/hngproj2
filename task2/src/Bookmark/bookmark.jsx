@@ -15,6 +15,7 @@ function Bookmark(){
             text: "Payment successful",
           });
           navigate(`/hngproj2`);
+          localStorage.clear()
     }
     return <div className="bmark">
         <Nav/>

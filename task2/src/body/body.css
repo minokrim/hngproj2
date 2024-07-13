@@ -211,6 +211,10 @@ body{
 .kcat{
     margin-bottom: 50px;
 }
+.li{
+    text-decoration: none;
+    cursor: pointer;
+}
 
 @media screen and (max-width:770px) {
     .cat{

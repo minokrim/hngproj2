@@ -1,0 +1,104 @@
+.prodmain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    background-color: rgba(90, 88, 88, 0.148);
+    padding-top: 20px;
+}
+.prodsec{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.prodimg{
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.prodsec p{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.prodsec h4{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.prodpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.pg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: -200px;
+}
+.pg img{
+    width: 50px;
+    height: auto;
+}
+.pricer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 40px;
+}
+.vallink{
+    text-decoration: none;
+    color: black;
+}
+.ratings{
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    width: auto;
+    height: 100px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.vall{
+    display: flex;
+    width: 99%;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+}
+.vall img{
+    width: 50px;
+    height: auto;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .prodmain{
+        gap: 0;
+    }
+    .pricer{
+        height: 50px;
+    }
+    .prodpage{
+        justify-content: space-around;
+    }
+    .pg{
+        margin-top: 0px;
+        gap: 5px;
+    }
+    .pg1{
+        margin-left: 10px;
+    }
+    .pg2{
+        margin-right: 10px;
+    }
+}

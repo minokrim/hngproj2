@@ -7,19 +7,19 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Home from './home/home';
 import Bookmark from './Bookmark/bookmark';
 import Onboarding from './mobileonboarding/onboarding';
-import Details from './details/details';
 import Body from './body/body';
-import DetailsPage from './details/mobiledetails';
 import Cart from './component/cart';
+import Tinbudetails from './tinbu/tinbudetails';
+import Fullproduct from './tinbu/fullproduct';
 
 const router = createBrowserRouter([
   {path : '/hngproj2', element: <Home/> },
   {path : '/bookmark', element: <Bookmark/> },
   {path : '/onboarding', element: <Onboarding/> },
-  {path : '/details', element: <Details/> },
   {path : '/body', element: <Body/> },
-  { path: '/mobiledetails/:id', element: <DetailsPage /> },
   { path: '/cart', element: <Cart /> },
+  { path: '/product/:id', element: <Tinbudetails /> },
+  { path: '/fullproduct', element: <Fullproduct /> },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

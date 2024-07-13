@@ -35,7 +35,7 @@ function Nav() {
 
             <section className="middleSec">
                 <Link to="/hngproj2" className="li" onClick={closeDropdown}><p>HOME</p></Link>
-                <Link to="/hngproj2" className="li" onClick={closeDropdown}><p>PRODUCTS</p></Link>
+                <Link to="/fullproduct" className="li" onClick={closeDropdown}><p>PRODUCTS</p></Link>
                 <Link to="/cart" className="li"><p>CART</p></Link>
             </section>
 
@@ -43,7 +43,7 @@ function Nav() {
                 <section className="dropDown" id="dropd">
                     <img src={close} alt="Close" onClick={toggleDropdown} />
                     <Link to="/hngproj2" className="li2" onClick={closeDropdown}><p>HOME</p></Link>
-                    <Link to="/hngproj2" className="li2" onClick={closeDropdown}><p>PRODUCTS</p></Link>
+                    <Link to="/fullproduct" className="li2" onClick={closeDropdown}><p>PRODUCTS</p></Link>
                 </section>
             )}
         </div>
