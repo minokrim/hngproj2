@@ -8,9 +8,11 @@
     justify-content: space-evenly;
     padding: 60px 0 60px 120px;
     gap: 100px;
+
 }
 .tdetsec1{
     color: #797979;
+    margin-top: 20px;
 }
 .tdetsec1 img{
     height: 370px;
@@ -67,7 +69,9 @@
         height: 300px;
     }
     .tdetsec1info{
-        gap: 100px;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
     }
     .tdetsec2{
         position: bo;
@@ -81,5 +85,23 @@
     }
     .colors{
         margin-left: 10px;
+    }
+    .detrating{
+        position: relative;
+        margin-top: -10px;
+    }
+    .detrating img{
+        height: 100px;
+        width: auto;
+    }
+    .gallery{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        margin-top: -50px;
+    }
+    .gallery img{
+        height: 50px;
+        width: 50px;
     }
 }
