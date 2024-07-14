@@ -35,7 +35,7 @@ function Fullproduct(){
         {products.map((product) => (
           <div key={product.id} className='fprodsec'>
             <Link to={`/product/${product.id}`}>
-            <img src={`${baseUrl}${product.photos[0]?.url || ''}`} alt="" className='fprodimg'/>
+            <img src={`${baseUrl}${product.photos[2]?.url || ''}`} alt="" className='fprodimg'/>
             </Link>
             <p>{product.name}</p>
             {product.current_price.map((priceData, index) => (
