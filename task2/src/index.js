@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './home/home';
 import Bookmark from './Bookmark/bookmark';
 import Onboarding from './mobileonboarding/onboarding';
@@ -12,21 +12,21 @@ import Cart from './component/cart';
 import Tinbudetails from './tinbu/tinbudetails';
 import Fullproduct from './tinbu/fullproduct';
 
-const router = createBrowserRouter([
-  {path : '/hngproj2', element: <Home/> },
-  {path : '/bookmark', element: <Bookmark/> },
-  {path : '/onboarding', element: <Onboarding/> },
-  {path : '/body', element: <Body/> },
-  { path: '/cart', element: <Cart /> },
-  { path: '/product/:id', element: <Tinbudetails /> },
-  { path: '/fullproduct', element: <Fullproduct /> },
-])
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
-    <App />
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bookmark" element={<Bookmark />} />
+        <Route path="/onboarding" element={<Onboarding />} />
+        <Route path="/body" element={<Body />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/product/:id" element={<Tinbudetails />} />
+        <Route path="/fullproduct" element={<Fullproduct />} />
+      </Routes>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
 
